@@ -5,7 +5,7 @@ This is the landing page for Delani Studios
 
 
 # Live Demo
-[Github](https://komenpurity.github.io/Moringa-pluralsight-project/)
+  https://komenpurity.github.io/Moringa-pluralsight-project/
 
 # Usage
 Want to contribute? Great!
@@ -23,4 +23,4 @@ To fix a bug or enhance an existing module, follow these steps:
 Purity Jepkorir
 
 # Copyright
- MIT License
+ [MIT License] (https://choosealicense.com/licenses/mit/)
