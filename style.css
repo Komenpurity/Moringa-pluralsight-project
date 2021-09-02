@@ -40,6 +40,9 @@ body{
     transform: translate(-50%, -50%);
     color: white;
 }
+.do{
+    text-align: center;
+}
 .port-img{
     width: 155px;
     height: 155px;
