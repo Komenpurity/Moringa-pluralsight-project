@@ -23,4 +23,4 @@ To fix a bug or enhance an existing module, follow these steps:
 Purity Jepkorir
 
 # Copyright
- [MIT License] (https://choosealicense.com/licenses/mit/)
+[MIT License](https://choosealicense.com/licenses/mit/)
