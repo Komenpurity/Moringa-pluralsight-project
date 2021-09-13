@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Delani Studio</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -50,14 +51,22 @@
       </article>
 
       <article>
-          <div class="do">
-        </br></br></br>
-          <h3>WHAT WE DO</h3>
+        <h3 class="text-center p-4">WHAT WE DO</h3>
+        <div class="container">
+          <div class="row">
+          
+          <div class="col-md-4">
           <img src="./assets/services_icons/design_icon.png" alt="design-icon" class="we-do">DESIGN</img>
-          <img src="./assets/services_icons/dev_icon.png" alt="dev" class="we-do">DEVELOPMENT</img>
-          <img src="./assets/services_icons/product_icon.png" alt="product"class="we-do" >PRODUCT MANAGEMENT</img>
-        </br></br></br>
         </div>
+        <div class="col-md-4">
+          <img src="./assets/services_icons/dev_icon.png" alt="dev" class="we-do">DEVELOPMENT</img>
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/services_icons/product_icon.png" alt="product"class="we-do" >PRODUCT MANAGEMENT</img>
+        </div>
+
+      </div>
+      </div>
       </article>
 
       <article>
@@ -79,18 +88,25 @@
         </div>
       </article>
 
-      <article>
-          <div class="contacts">
-              <div class="text-contacts">
-          <h3>CONTACT US</h3>
-          <div class="inputs">
-          <input type="text" placeholder="Name..." class="name">
-          <input type="text" placeholder="Email..." class="email">
-          <textarea name="message" class="message" placeholder="Your message here..."></textarea></br></br></br>
+      <article class="contact">
+          <div class="container">
+          <h3 class="text-white p-3">CONTACT US</h3>
+          <div class="row justify-content-center ">
+            <form>
+              <div class="form-row">
+              <div class="form-group col-md-4 align-center">
+                <input type="name" placeholder="Name..." class="form-control">
+                </div> 
+                <div class="form-group col-md-4 mr-5 align-center ">
+                <input type="email" placeholder="Email..."  class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Your message here..." class="form-control p-5">
+              </div>
+            </div>
+            </form> 
         </div>
-        </div>
-        </div>
-
+      </div>
       </article>
 
       <footer>
