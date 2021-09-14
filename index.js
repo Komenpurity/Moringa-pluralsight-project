@@ -82,3 +82,9 @@ $(document).ready(function(){
     $("#overlay8").hide();
   });
 });
+
+$(document).ready(function(){
+   $("#submit").click(function(){
+     alert("We have received your message.Thank you for reaching out to us");
+   });
+});
