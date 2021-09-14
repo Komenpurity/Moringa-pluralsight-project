@@ -21,9 +21,17 @@ body{
     color: white;
 
 }
+#design,#development,#product{
+    display: none;
+}
+
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    display: none;
+} 
 .about{
    text-align: center;
 }
+
 .services{
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-color: #cccccc;
@@ -41,15 +49,9 @@ body{
     transform: translate(-50%, -50%);
     color: white;
 }
-.port-img{
-    width: 255px;
-    height: 255px;
-}
+
 .first{
     display: inline;
-}
-.portfolio{
-    text-align: center;
 }
 .name{
     width: 40%;
@@ -73,6 +75,7 @@ body{
     background-size: cover;
     position: relative;
 }
+
 .socials{
     text-align: center;
 }
