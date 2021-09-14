@@ -6,7 +6,7 @@ This is the landing page for Delani Studios
 
 # Live Demo
   https://komenpurity.github.io/Moringa-pluralsight-project/
-
+  
 # Usage
 Want to contribute? Great!
 
